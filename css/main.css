@@ -98,11 +98,11 @@ ul.ul-style01 ul li {padding-left:12px; background:url("../design/ul-style01-sub
         #logo {float:right; margin:0; font:normal 260%/1.4 "arial",sans-serif; letter-spacing:-1px;}
         #logo a {text-decoration:none;}
         
-        #url {position:absolute; left:20px; bottom:20px; margin:0;}
+        #url {position:absolute; left:80px; bottom:0px; margin:0;}
 
     #cols {clear:both; background:url("../design/aside.gif") 0 0 repeat-y;}
 
-    	#content {float:right; width:700px; overflow:hidden;}
+    	#content {float:right; width:680px; overflow:hidden;padding:10px 10px;}
     	
             #slogan {padding:10px 20px; text-align:right;}
             
@@ -118,7 +118,7 @@ ul.ul-style01 ul li {padding-left:12px; background:url("../design/ul-style01-sub
             #content-in {padding:5px 20px 20px 20px;}
             #content-in p {text-align:justify;}
 
-        #aside {float:left; width:260px;}
+        #aside {float:left; width:260px; height:500px;}
     	#aside-in {padding:39px 0 300px 15px; overflow:hidden;}
     	
     	   #search {padding:15px; text-align:center;}
