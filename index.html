@@ -1,49 +1,48 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!-- saved from url=(0065)https://www.theorphys.science.ru.nl/people/katsnelson/science.php -->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<!-- saved from url=(0065)https://www.theorphys.science.ru.nl/people/katsnelson/index.php -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
     <meta http-equiv="content-language" content="en">
     <meta name="robots" content="all,follow">
-
     <meta name="author" lang="en" content="All: Ricardo Pérez de Tudela; e-mail: r.perezdetudela@gmail.com">
-
-    <meta name="description" content="Ricardo Pérez de Tudela web-page">
+    <meta name="description" content="Ricardo Pérez de Tudela webpage">
     <meta name="keywords" content="Pérez de Tudela, Ricardo, Theoretical Chemistry">
     
     <link rel="stylesheet" media="screen,projection" type="text/css" href="./css/main.css">
     <link rel="stylesheet" media="screen,projection" type="text/css" href="./css/scheme.css">
     <link rel="stylesheet" media="print" type="text/css" href="./css/print.css">
 
-    <title>Curriculum Vitae for Ricardo Pérez de Tudela</title>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <style>a {text-decoration: none;} </style>
+
+    <title>CV for Ricardo Pérez de Tudela</title>
+    <!--- JS script --->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
         <script>
             $(document).ready(function(){
-                 $(".links").click(function(){
-                     $("#content").load($(this).attr("page")+".html");
-                 });
+                $("#content").load("home.html");
+                $(".links").click(function(){
+                    $('#nav-active').attr("id","");
+                    $(this).parent().attr("id","nav-active");
+                    $("#content").load($(this).attr("page")+".html");
+                });
             });
         </script>
-</head>
+    </head>
 
-<body lang="RU" link="blue" vlink="purple" style="tab-interval:35.4pt">
+
+<body lang=EN link="blue" vlink="purple" style="tab-interval:35.4pt">
 
 <div id="main">
     <div id="header" class="box">
-        <h3 id="logo">Theory of Condensed Matter</h3>
-        <p id="url"><a href="index.php">Ricardo Pérez de Tudela</a></p>
+        <h3 id="logo">Ricardo Pérez de Tudela</h3>
+        <p id="url"><img src="picture-lower-quality-2.jpg" alt="Photo unavailable" height="100px"></p>
     </div>
+
     <div id="cols" class="box">
-        <div id="content">
-		<table width="90%" align="center">
-		<tbody><tr><td>
 
-<!-- Content here! -->
-<div class="Section1" id="content"></div>
-
-
-       </td></tr></tbody></table>
-
-	   </div>
+        <!-- CONTENTS HERE -->
+        <div id="content"></div>
 
         <hr class="noscreen">
 
@@ -58,10 +57,10 @@
                 <h3 class="noscreen">Navigation</h3>        
                 
                 <ul id="nav">
-                    <li id="nav-active"><a href="index.php">Homepage</a></li> <!-- Active page (highlighted) -->
+                    <li id="nav-active"><a href="#" class="links" page="home">Homepage</a></li>
                     <li><a href="#" class="links" page="personal">Personal information</a></li>
                     <li><a href="#" class="links" page="interests">Scientific interests</a></li>
-                    <li><a href="#" class="links" page="publications">Publications</a></li> <!-- Active page (highlighted) -->
+                    <li><a href="#" class="links" page="publications">Publications</a></li>
                     <li><a href="#" class="links" page="talks">Talks</a></li>
                     <li><a href="#" class="links" page="teaching">Teaching</a></li>
                 </ul>    
@@ -78,7 +77,7 @@
     <!-- Footer -->
     <div id="footer">
         
-        <p>©&nbsp;2020 <a href="index.php">Ricardo Pérez de Tudela</a></p>
+        <p>©&nbsp;2020 <a href="index.html">Ricardo Pérez de Tudela</a></p>
 
     </div> <!-- /footer -->
 
